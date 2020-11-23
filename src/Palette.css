@@ -1,7 +1,35 @@
-.Palette{
-height: 100vh;
+.Palette {
+  height: 100vh;
 }
-.Palette-colors{
- height: 90%; 
- /* relative to the parent Palette 100vh size*/
+
+.Palette-colors {
+  height: 90%;
+  /* relative to the parent Palette 100vh size*/
+}
+
+.slider {
+  width: 30%;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.rc-slider-track {
+  background-color: transparent;
+}
+
+.rc-slider-rail {
+  height: 8px;
+}
+
+.rc-slider-handle,
+.rc-slider-handle:active,
+.rc-slider-handle:focus,
+.rc-slider-handle:hover {
+  background-color: green;
+  outline: none;
+  border: 2px solid green;
+  box-shadow: none;
+  width: 13px;
+  margin-left: -7px;
+  margin-top: -3px;
 }
