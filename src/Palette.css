@@ -1,5 +1,7 @@
 .Palette {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .Palette-colors {
@@ -7,4 +9,11 @@
   /* relative to the parent Palette 100vh size*/
 }
 
-
+.Palette-footer {
+  background-color: white;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+[33mcommit 341008c2c3fb1f2b5f564a3a245d97655fa59b62[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: unknown <guymdls1508@gmail.com>
+Date:   Sun Nov 22 14:54:52 2020 +0200
+
+    styling Color Box
+
+[33mcommit 54d6fc5830610554390927e02e873681e750e3aa[m
+Author: unknown <guymdls1508@gmail.com>
+Date:   Sun Nov 22 13:47:54 2020 +0200
+
+    Add ColorBox
+
+[33mcommit 8f8eb8ac0382a3c28386f22ddbe0b34f7647063b[m
+Author: unknown <guymdls1508@gmail.com>
+Date:   Sun Nov 22 12:19:45 2020 +0200
+
+    adding Pallaet Component
+
+[33mcommit 186c804833a935d811bd01c6560958c01b60ce53[m
+Author: unknown <guymdls1508@gmail.com>
+Date:   Sun Nov 22 10:57:24 2020 +0200
+
+    project init
+
+[33mcommit 07a22d755b773db1d6a582284242ed13b296bc75[m
+Author: unknown <guymdls1508@gmail.com>
+Date:   Sun Nov 22 10:47:28 2020 +0200
+
+    Initialize project using Create React App

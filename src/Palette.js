@@ -23,7 +23,7 @@ class Palette extends Component {
     }
     render() {
         const colorBoxes = this.props.palette.colors[this.state.level].map(color => {
-            return <ColorBox background={color[this.state.format]} name={color.name} />
+            return <ColorBox background={color[this.state.format]} name={color.name} key={color.id} />
         });
 
         return (
@@ -36,6 +36,9 @@ class Palette extends Component {
                 <div className='Palette-colors'>
                     {colorBoxes}
                 </div>
+                <footer className='Palette-footer'>
+                    {this.props.palette.paletteName}
+                </footer>
             </div>
         );
     }
